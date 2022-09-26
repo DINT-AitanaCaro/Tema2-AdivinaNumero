@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema2_AdivinaNumero"
         mc:Ignorable="d"
-        Title="Adivina el número" Height="163.884" Width="477.665">
+        Title="Adivina el número" Height="163.884" Width="482.192">
     <Grid Margin="0,0,12,7">
         <TextBlock HorizontalAlignment="Left" Margin="44,38,0,0" TextWrapping="Wrap" Text="¿Qué número he pensado?" VerticalAlignment="Top"/>
         <TextBox x:Name="numeroUsuarioTextBox" HorizontalAlignment="Left" Height="17" Margin="203,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
-        <Button x:Name="comprobarButton" Content="Comprobar" HorizontalAlignment="Left" Height="21" Margin="52,77,0,0" VerticalAlignment="Top" Width="97" Click="comprobarButton_Click"/>
+        <Button x:Name="comprobarButton" Content="Comprobar" HorizontalAlignment="Left" Height="21" Margin="52,77,0,0" VerticalAlignment="Top" Width="97" Click="comprobarButton_Click" IsDefault="True"/>
         <Button x:Name="reiniciarButton" Content="Reiniciar" HorizontalAlignment="Left" Height="21" Margin="192,77,0,0" VerticalAlignment="Top" Width="89" Click="reiniciarButton_Click"/>
         <TextBlock x:Name="resultadoTextBlock" HorizontalAlignment="Left" Margin="306,38,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" IsEnabled="False" Width="119"/>
 

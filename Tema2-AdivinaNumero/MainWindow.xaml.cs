@@ -34,7 +34,8 @@ namespace Tema2_AdivinaNumero
         private void reiniciarButton_Click(object sender, RoutedEventArgs e)
         {
             nuevoNumero();
-            resultadoTextBlock.Text = " ";
+            resultadoTextBlock.Text = "";
+            numeroUsuarioTextBox.Clear();
         }
 
         private void comprobarButton_Click(object sender, RoutedEventArgs e)
@@ -42,7 +43,7 @@ namespace Tema2_AdivinaNumero
          int numUs = int.Parse(numeroUsuarioTextBox.Text);
             if (numUs < numero) resultadoTextBlock.Text = "Te has quedado corto";
             else if (numUs > numero) resultadoTextBlock.Text = "Te has pasado";
-            else resultadoTextBlock.Text = "¡Has acertado";
+            else resultadoTextBlock.Text = "¡Has acertado!";
         }
     }
 }
